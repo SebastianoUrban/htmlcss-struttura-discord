@@ -77,15 +77,41 @@ main>section:first-child{
     background-color: #1c0088;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    color: white;
+    flex-direction: column;
 }
 
 main>section:first-child>div{
-    height: 300px;
-    width: 50%;
-    background-color: #ec7eed;
+    /* background-color: #ec7eed; */
     margin: 1rem auto;
+    text-align: center;
 }
 
+main>section:first-child h1{
+    font-size: 2.8rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+main>section:first-child p{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+
+main>section:first-child button{
+    color: black;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 1.2rem;
+    padding: 0.8rem;
+    border: none;
+    margin: 0 1rem;
+}
+
+main>section:first-child button:nth-child(2){
+    color: white;
+    background-color: #282b2e;
+}
 
 /* principal section */
 section>div.principal-content{
