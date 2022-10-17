@@ -79,6 +79,7 @@ main>section:first-child{
     background-size: cover;
     color: white;
     flex-direction: column;
+    padding-bottom: 6rem;
 }
 
 main>section:first-child>div{
@@ -126,11 +127,17 @@ div.principal-content>div.first-article{
     border: 2px dotted black;
 }
 
+div.principal-content>div.first-article img{
+    width: 100%;
+}
+
+
 div.principal-content>div.second-article{
     width: 40%;
     height: 100%;
     background-color: #fdbecb;
     border: 2px dotted black;
+    padding: 2rem;
 }
 
 
