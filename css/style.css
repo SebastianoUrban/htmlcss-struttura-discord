@@ -18,15 +18,15 @@
     height: 200px;
 }
 
-section:nth-child(odd){
-    background-color: #d2d2d2;
-}
+
 
 footer{
     background-color: #282b2e;
 }
 
-/* header */
+
+
+/* HEADER */
 header{
     background-color: lightskyblue;
 }
@@ -56,6 +56,15 @@ header div.login{
 }
 
 
+/* MAIN */
+section:nth-child(odd){
+    background-color: #d2d2d2;
+}
+
+section:nth-child(odd)>div.principal-content{
+    flex-direction: row-reverse;
+}
+
 
 
 /* first-section */
@@ -68,3 +77,27 @@ section:first-child>div{
     width: 50%;
     background-color: #ec7eed;
 }
+
+
+/* principal section */
+section>div.principal-content{
+    width: 70%;
+    height: 300px;
+    margin: 2rem auto;
+    background-color: red;
+}
+
+div.principal-content>div.first-article{
+    width: 60%;
+    height: 100%;
+    background-color: #408efc;
+    border: 2px dotted black;
+}
+
+div.principal-content>div.second-article{
+    width: 40%;
+    height: 100%;
+    background-color: #fdbecb;
+    border: 2px dotted black;
+}
+
