@@ -13,10 +13,7 @@
 
 /* macro-structure */
 
-header{
-    height: 150px;
-    background-color: lightskyblue;
-}
+
 .general-setting{
     height: 200px;
 }
@@ -29,13 +26,45 @@ footer{
     background-color: #282b2e;
 }
 
+/* header */
+header{
+    background-color: lightskyblue;
+}
+
+header>div{
+    width: 70%;
+    background-color: #d5a334;
+    margin: 1rem auto;
+}
+
+header>div>div{
+    border: 2px dotted black;
+}
+
+header div.logo{
+    width: 20%;
+}
+
+header div.link{
+    width: 60%;
+    text-align: center;
+}
+
+header div.login{
+    width: 20%;
+    text-align: right;
+}
+
+
+
+
 /* first-section */
 section:first-child{
     background-color: #1c0088;
 }
 
 section:first-child>div{
-    height: 90%;
+    height: 80%;
     width: 50%;
     background-color: #ec7eed;
 }
