@@ -4,3 +4,22 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 100px;
+    background-color: lightskyblue;
+}
+.general-setting{
+    height: 200px;
+}
+
+section:nth-child(odd){
+    background-color: darkgray;
+}
+
+section:first-child{
+    background-color: blue;
+}
+
+footer{
+    background-color: gray;
+}
